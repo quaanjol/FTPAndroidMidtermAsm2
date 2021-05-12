@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="12"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Date"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:id="@+id/tvDateDaily"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/ivIconDaily"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=""
+            android:gravity="right"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:id="@+id/tvTempDay"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=""
+            android:gravity="right"
+            android:textSize="15sp"
+            android:textColor="#c4c4c4"
+            android:layout_gravity="center"
+            android:id="@+id/tvTempNight"/>
+    </LinearLayout>
+
+</LinearLayout>
